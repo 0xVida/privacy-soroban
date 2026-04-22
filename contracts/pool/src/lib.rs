@@ -43,4 +43,5 @@ impl PrivacyPool {
     }
 }
 
+pub mod merkle;
 mod test;
