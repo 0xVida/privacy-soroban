@@ -1,0 +1,32 @@
+# Rust
+/target
+/contracts/*/target
+**/*.rs.bk
+Cargo.lock
+
+# Node.js
+**/node_modules/
+.npm
+**/.vercel
+.next/
+out/
+build/
+
+# Soroban
+.soroban/
+
+# ZK Circuits (Noir / Circom)
+**/target/
+**/proofs/
+**/contract/
+**/*.pfile
+**/*.pfile.vkey
+
+# Reference Repo
+stellar-private-payments/
+
+# Environment / OS
+.env
+.env.*
+.DS_Store
+.vscode/
